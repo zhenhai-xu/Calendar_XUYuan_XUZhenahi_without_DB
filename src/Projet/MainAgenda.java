@@ -64,14 +64,14 @@ public class MainAgenda extends Application {
 
         BottomOftheWholePane bottom=new BottomOftheWholePane(log);
         TopOftheWholePane top=new TopOftheWholePane(currentDate.get(Calendar.YEAR),currentDate.get(Calendar.MONTH)+1,log,wholePane);
-        //调整块于块之间的间距
+
         top.setPadding(new Insets(5,5,5,5));
         left.setPadding(new Insets(5,5,5,5));
         bottom.setPadding(new Insets(5,5,5,5));
         log.setPadding(new Insets(5,5,5,5));
         wholePane.setTop(top);wholePane.setLeft(left);
         wholePane.setBottom(bottom);wholePane.setRight(log);
-        wholePane.setStyle("-fx-background-color: #7FFFAA");
+        wholePane.setStyle("-fx-background-color: #5DA38B");
         mainPane = wholePane;
         Scene scene = new Scene(wholePane);
         primaryStage.setScene(scene);
