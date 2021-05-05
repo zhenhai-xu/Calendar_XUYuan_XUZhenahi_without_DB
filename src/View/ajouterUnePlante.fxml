@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ajoutePLPane" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #5DA38B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.AjouterUnePlante">
+    <children>
+        <Button fx:id="retourBut" layoutX="206.0" layoutY="560.0" mnemonicParsing="false" onAction="#retourBut" stylesheets="@buttonNormalL.css" text="Retour" />
+        <Button fx:id="AjouterBut" layoutX="414.0" layoutY="560.0" mnemonicParsing="false" onAction="#AjouterBut" stylesheets="@buttonNormalL.css" text="Ajouter" />
+        <Label layoutX="109.0" layoutY="40.0" text="nom de plante :" textFill="#fcf5f5" />
+        <Label layoutX="103.0" layoutY="77.0" text="photo de plante :" textFill="#fcf5f5" />
+        <Hyperlink fx:id="choirsirPhoto" layoutX="236.0" layoutY="73.0" onAction="#choisirPhoto" prefHeight="28.0" prefWidth="267.0" text="Choisir un photo par l'ordinateur" textFill="#d0ff7e" />
+        <TextField fx:id="nomDePlante" layoutX="231.0" layoutY="36.0" />
+      <VBox layoutX="232.0" layoutY="105.0" prefHeight="220.0" prefWidth="200.0" spacing="17.0">
+         <children>
+            <DatePicker fx:id="dateDePla" />
+            <DatePicker fx:id="dateDeRem" />
+            <DatePicker fx:id="dateDeArr" />
+            <DatePicker fx:id="dateDeEnt" />
+            <DatePicker fx:id="dateDeCou" />
+            <DatePicker fx:id="dateDeRec" />
+         </children>
+      </VBox>
+      <Label layoutX="86.0" layoutY="107.0" text="date de plantation : " textFill="#fcf5f5" />
+      <Label layoutX="82.0" layoutY="147.0" text="date de rempotage : " textFill="#fcf5f5" />
+      <Label layoutX="89.0" layoutY="187.0" text="date de arronsage : " textFill="#fcf5f5" />
+      <Label layoutX="96.0" layoutY="227.0" text="date de entretien : " textFill="#fcf5f5" />
+      <Label layoutX="114.0" layoutY="267.0" text="date de coupe : " textFill="#fcf5f5" />
+      <Label layoutX="109.0" layoutY="307.0" text="date de recotte : " textFill="#fcf5f5" />
+      <Label layoutX="117.0" layoutY="477.0" text="Les Notes : " textFill="#fcf5f5" />
+      <TextArea fx:id="noteText" layoutX="206.0" layoutY="467.0" prefHeight="81.0" prefWidth="282.0" />
+      <TextField fx:id="PH" layoutX="232.0" layoutY="382.0" />
+      <TextField fx:id="hauteur" layoutX="232.0" layoutY="348.0" />
+      <Label layoutX="181.0" layoutY="381.0" prefHeight="20.0" prefWidth="40.0" text="PH :" textFill="#fcf5f5" />
+      <Label layoutX="152.0" layoutY="347.0" prefHeight="20.0" prefWidth="71.0" text="Hauteur :" textFill="#fcf5f5" />
+      <Label layoutX="86.0" layoutY="416.0" prefHeight="20.0" prefWidth="137.0" text="date de mesures :" textFill="#fcf5f5" />
+      <DatePicker fx:id="dateDeMes" layoutX="231.0" layoutY="418.0" />
+      <Label layoutX="399.0" layoutY="350.0" prefHeight="20.0" prefWidth="40.0" text="CM" />
+    </children>
+</AnchorPane>

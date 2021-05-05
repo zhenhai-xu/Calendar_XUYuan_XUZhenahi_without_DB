@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="detailsPane" prefHeight="750.0" prefWidth="600.0" style="-fx-background-color: #5DA38B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.Details">
+   <children>
+      <Label fx:id="labelNom" layoutX="206.0" layoutY="12.0" prefHeight="31.0" prefWidth="189.0" text="Nom de plante" textFill="#fff1f1">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </Label>
+      <VBox layoutX="215.0" layoutY="60.0" prefHeight="147.0" prefWidth="355.0" spacing="3.0">
+         <children>
+            <Label fx:id="labelPlan" layoutX="268.0" layoutY="91.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelRem" layoutX="278.0" layoutY="101.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelArr" layoutX="268.0" layoutY="123.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelEnt" layoutX="268.0" layoutY="152.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCou" layoutX="268.0" layoutY="180.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelRec" layoutX="261.0" layoutY="200.0" text="Label" textFill="#fff1f1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="30.0" layoutY="211.0" prefHeight="232.0" prefWidth="540.0">
+        <content>
+          <AnchorPane fx:id="graphePane" minHeight="0.0" minWidth="0.0" prefHeight="620.0" prefWidth="537.0" style="-fx-background-color: #E4FFA8;" />
+        </content>
+      </ScrollPane>
+      <Label fx:id="labelRecord" layoutX="30.0" layoutY="456.0" prefHeight="31.0" prefWidth="288.0" text="Record de croissance : " textFill="#fff1f1">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="30.0" layoutY="500.0" prefHeight="246.0" prefWidth="540.0">
+         <content>
+            <AnchorPane fx:id="recordPane" minHeight="0.0" minWidth="0.0" prefHeight="244.0" prefWidth="538.0" style="-fx-background-color: #E4FFA8;" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="ajoutSuiviBut" layoutX="480.0" layoutY="447.0" mnemonicParsing="false" onAction="#ajoutSuiviBut" prefHeight="48.0" prefWidth="48.0" stylesheets="@rondBtnL.css" text="+">
+         <font>
+            <Font name="Bernard MT Condensed" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="retourBut" mnemonicParsing="false" onAction="#retourBut" stylesheets="@buttonNormalL.css" text="Retour">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

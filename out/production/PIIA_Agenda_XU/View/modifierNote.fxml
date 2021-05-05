@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #5DA38B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ModifierNote">
+   <children>
+      <DatePicker fx:id="dateSuivi" layoutX="200.0" layoutY="50.0" />
+      <Label layoutX="138.0" layoutY="55.0" prefHeight="20.0" prefWidth="54.0" text="Date : " textFill="#faffee" />
+      <Hyperlink fx:id="choisirPhoto" layoutX="200.0" layoutY="99.0" onAction="#choisirPhoto" prefHeight="28.0" prefWidth="245.0" text="choisir un photo par l'ordinateur" textFill="#e4ffa8" underline="true" />
+      <Label layoutX="70.0" layoutY="103.0" prefHeight="20.0" prefWidth="128.0" text="Photo de suivi :" textFill="#faffee" />
+      <Label layoutX="114.0" layoutY="155.0" prefHeight="20.0" prefWidth="79.0" text="Hauteur :" textFill="#faffee" />
+      <Label layoutX="152.0" layoutY="205.0" prefHeight="20.0" prefWidth="40.0" text="PH :" textFill="#faffee" />
+      <Label layoutX="137.0" layoutY="250.0" prefHeight="20.0" prefWidth="54.0" text="Note :" textFill="#faffee" />
+      <TextArea fx:id="noteSuivi" layoutX="200.0" layoutY="250.0" prefHeight="247.0" prefWidth="344.0" />
+      <TextField fx:id="hauteurSuivi" layoutX="200.0" layoutY="150.0" />
+      <TextField fx:id="PHSuivi" layoutX="200.0" layoutY="200.0" />
+      <Button fx:id="retourBut" layoutX="200.0" layoutY="520.0" mnemonicParsing="false" onAction="#retour" stylesheets="@buttonNormalL.css" text="Retour" />
+      <Button fx:id="Modifier" layoutX="400.0" layoutY="520.0" mnemonicParsing="false" onAction="#Modifier" stylesheets="@buttonNormalL.css" text="Modifier" />
+      <Label layoutX="407.0" layoutY="151.0" prefHeight="20.0" prefWidth="40.0" text="CM" textFill="#faffee" />
+   </children>
+</AnchorPane>

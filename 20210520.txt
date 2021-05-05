@@ -1,0 +1,6 @@
+baise dateEntretien
+baise dateRecolte
+baise dateRempotage
+baise datePlantation
+baise dateArronsage
+baise dateCoupe

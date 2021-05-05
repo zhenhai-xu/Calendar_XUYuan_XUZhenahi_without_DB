@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="modifierPLPane" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #5DA38B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.ModifierPlante">
+   <children>
+      <Button fx:id="retourBut" layoutX="200.0" layoutY="550.0" mnemonicParsing="false" onAction="#retourBut" stylesheets="@buttonNormalL.css" text="Retour" />
+      <Button fx:id="modifierBut" layoutX="350.0" layoutY="550.0" mnemonicParsing="false" onAction="#modifierBut" stylesheets="@buttonNormalL.css" text="Modifier" />
+      <Label layoutX="107.0" layoutY="40.0" text="Nom de plante :" textFill="#fff4f4" />
+      <Label layoutX="100.0" layoutY="90.0" text="Photo de plante :" textFill="#fff4f4" />
+      <Hyperlink fx:id="choirsirPhoto" layoutX="240.0" layoutY="87.0" onAction="#choisirPhoto" prefHeight="28.0" prefWidth="267.0" text="Choisir un photo par l'ordinateur" textFill="#d0ff7e" underline="true" />
+      <TextField fx:id="nomDePlante" layoutX="240.0" layoutY="35.0" />
+      <VBox layoutX="232.0" layoutY="133.0" prefHeight="220.0" prefWidth="200.0" spacing="17.0">
+         <children>
+            <DatePicker fx:id="dateDePla" />
+            <DatePicker fx:id="dateDeRem" />
+            <DatePicker fx:id="dateDeArr" />
+            <DatePicker fx:id="dateDeEnt" />
+            <DatePicker fx:id="dateDeCou" />
+            <DatePicker fx:id="dateDeRec" />
+         </children>
+      </VBox>
+      <Label layoutX="77.0" layoutY="135.0" text="date de plantation :" textFill="#fff4f4" />
+      <Label layoutX="83.0" layoutY="175.0" text="date de rempotage : " textFill="#fff4f4" />
+      <Label layoutX="84.0" layoutY="215.0" text="date de arronsage : " textFill="#fff4f4" />
+      <Label layoutX="90.0" layoutY="255.0" text="date de entretien : " textFill="#fff4f4" />
+      <Label layoutX="110.0" layoutY="295.0" text="date de coupe : " textFill="#fff4f4" />
+      <Label layoutX="98.0" layoutY="335.0" text="date de recotte  : " textFill="#fff4f4" />
+      <Label layoutX="85.0" layoutY="387.0" text="Les Notes : " textFill="#fff4f4" />
+      <TextArea fx:id="noteText" layoutX="187.0" layoutY="387.0" prefHeight="140.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>

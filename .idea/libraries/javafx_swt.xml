@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="javafx-swt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/jfxtras-all-10.0-r1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/commons-codec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/ical4j-3.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/ikonli-core-11.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/ikonli-fontawesome-pack-11.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/ikonli-javafx-11.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javafx-base-11-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javafx-controls-11-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javafx-graphics-11-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javafx-media-11-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javafx-web-11-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/view-11.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/controlsfx-11.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/jfxtras-agenda-10.0-r2-20200524.073617-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/jfxtras-icalendaragenda-10.0-r2-20200524.073718-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/jfxtras-icalendarfx-10.0-r2-20200524.073527-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.base" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.controls" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.fxml" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.graphics" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.media" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.swing" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/src.zip!/javafx.web" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib/calendar/ical4j-3.0.10.jar!/" />
+    </SOURCES>
+  </library>
+</component>
