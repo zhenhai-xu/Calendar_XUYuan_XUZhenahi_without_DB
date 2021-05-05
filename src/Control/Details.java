@@ -20,7 +20,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -219,7 +218,7 @@ public class Details implements Initializable {
             imageView.setPreserveRatio(false);
 
         }else {
-            File file = new File("src\\ImagePlante\\noPhoto.jpg");
+            File file = new File("src/ImagePlante/noPhoto.jpg");
             String string = file.toURI().toString();
             Image image = new Image(string);
             imageView.setImage(image);

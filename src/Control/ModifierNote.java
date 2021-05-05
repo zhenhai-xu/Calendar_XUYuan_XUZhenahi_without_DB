@@ -124,7 +124,7 @@ public class ModifierNote implements Initializable {
                 e.printStackTrace();
             }
         }else {
-            File file = new File("src\\ImagePlante\\noPhoto.jpg");
+            File file = new File("src/ImagePlante/noPhoto.jpg");
             String string = file.toURI().toString();
             Image image = new Image(string);
             System.out.println("图片设置成功");

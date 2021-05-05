@@ -1,0 +1,6 @@
+百合2 dateEntretien
+百合2 dateRecolte
+百合2 dateRempotage
+百合2 datePlantation
+百合2 dateArronsage
+百合2 dateCoupe
